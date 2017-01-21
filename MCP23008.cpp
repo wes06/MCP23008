@@ -34,7 +34,8 @@
 
 MCP23008::MCP23008(byte addr)
 {
-  _ADDR = addr >> 1;
+  //_ADDR = addr >> 1;
+  _ADDR = addr;
 }
 
 // writebyte
